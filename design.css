@@ -1,0 +1,827 @@
+/*INDEX / HOME*/
+
+body {
+    background-color: #2f3640;
+}
+
+#navig {
+    margin: 0px;
+    display: flex;
+}
+
+#navig:hover {
+    align-items: gap;
+}
+
+#call {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    font-size: 13px;
+    display: flex;
+    border: solid 2px ivory;
+    width: 170px;
+    border-radius: 20px;
+    height: 40px;
+    justify-content: center;
+    margin-top: 10;
+}
+
+#call:hover {
+    transform: scale(1.2);
+    background-color: goldenrod;
+    transform: rotate(180 deg);
+}
+
+#open {
+    display: flex;
+    color: white;
+    font-family: Ink Free;
+    font-size: 20px;
+    margin-left: 400px;
+    width: 300px;
+    animation-name: test1;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+}
+
+@keyframes test1 {
+    from {
+        transform: rotate(0deg);
+        transform: scale(0);
+        color: white;
+    }
+    to {
+        transform: rotate(360deg);
+        transform: scale(1.2);
+        color: goldenrod;
+    }
+}
+
+#open:hover {
+    transform: scale(1.2);
+    color: goldenrod;
+}
+
+#reserve {
+    display: flex;
+    margin-left: 320px;
+    /* color: white; */
+    /* background: go; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 10;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#reserve:hover {
+    transform: scale(1.2);
+    background-color: goldenrod;
+}
+
+#rese {
+    /* background-color: gold; */
+    margin-left: 60px;
+}
+
+#rese a {
+    color: white;
+    text-decoration: none;
+}
+
+#reservee {
+    display: flex;
+    margin-left: 320px;
+    color: white;
+    background: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 10;
+    border: 2px solid white;
+}
+
+#linetwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 50px;
+}
+
+#home,
+#abt,
+#reservation,
+#gal,
+#blog,
+#con {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#linetwo a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+#linetwo a:hover {
+    color: goldenrod;
+    transform: scale(1.2);
+}
+
+#mainbox {
+    color: white;
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 80px;
+}
+
+#cont {
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+    font-family: Century Gothic;
+}
+
+#intro {
+    display: inline-block;
+}
+
+#ban {
+    height: 560px;
+    display: inline-block;
+    margin-left: 250px;
+    width: 480px;
+    position: absolute;
+    margin-top: -360px;
+}
+
+#banner {
+    display: flex;
+    position: relative;
+    margin-left: 650px;
+}
+
+#bat {
+    margin-left: 90px;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    width: 125px;
+}
+
+#butta {
+    border: 2px solid white;
+    border-width: 2px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #2f3640;
+}
+
+#butta:hover {
+    background-color: goldenrod;
+}
+
+#bat a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    width: 110px;
+    height: 25px;
+    justify-content: center;
+    margin-top: 10px;
+    border-width: 0px;
+}
+
+#bat a:hover {
+    /* color: brown; */
+    /* transform: scale(1.2); */
+}
+
+
+/* ABOUT_PAGE*/
+
+#bodyabt {
+    background-color: white;
+}
+
+#abth1 {
+    height: 250px;
+    background-color: #2f3640;
+    margin-left: -30px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+#abtml {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+
+#abthr {
+    margin-top: 20px;
+}
+
+#abtmain {
+    margin-top: 240px;
+    margin-left: 100px;
+    display: inline-block;
+    height: 500px;
+}
+
+#sidel {
+    margin-left: 60px;
+    letter-spacing: 8px;
+    word-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    height: 5px;
+}
+
+#abthr2 {
+    margin-left: 50px;
+}
+
+#line1 {
+    margin-left: 50px;
+    font-size: 40;
+}
+
+#abtbc {
+    width: 650px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 10px;
+}
+
+#imagea {
+    margin-left: 600px;
+    height: 500px;
+    width: 10px;
+    border: 2px soild black;
+}
+
+#abtcafe {
+    width: 700px;
+    margin-left: 100px;
+    margin-top: -400px;
+    height: 600px;
+}
+
+#nameabgt {
+    font-size: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -10px;
+    display: inline-block
+}
+
+#priy {
+    width: 240px;
+    height: 100px;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+#priya {
+    width: 250px;
+    height: 50px;
+}
+
+#fooda {
+    width: 150px;
+    height: 50px;
+}
+
+#foodimg {
+    width: 1523px;
+    margin-left: -10px;
+    height: 500px;
+}
+
+
+/*Gallery*/
+
+#bodygal {
+    background-color: white;
+}
+
+#galth1 {
+    height: 250px;
+    background-color: #2f3640;
+    margin-left: -30px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+#menug {
+    margin-left: 560px;
+    font-size: 30px;
+    margin-top: 40px;
+    /* display: inline-block; */
+}
+
+#menug a {
+    color: maroon;
+}
+
+#menug a:hover {
+    color: goldenrod;
+}
+
+#menud {
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#menud a {
+    color: maroon;
+}
+
+#menud a:hover {
+    color: goldenrod;
+}
+
+#menucard {
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    width: 1510px;
+}
+
+#amb {
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+#amb a {
+    color: maroon;
+}
+
+#amb a:hover {
+    color: goldenrod;
+}
+
+#imagesoffood {
+    margin-left: 90px;
+    margin-top: 120px;
+    display: inline-block;
+    position: relative;
+}
+
+#fodm {
+    display: flex;
+}
+
+
+/* Card Containers - removed position: absolute & added vertical-align: top */
+
+#s,
+#c,
+#l,
+#b,
+#spa,
+#she,
+#bur,
+#curd,
+#des {
+    display: inline-block;
+    vertical-align: top;
+    /* Keeps all cards aligned at the top */
+    width: 430px;
+    height: 450px;
+    /* background-color: #2f3640; */
+    margin: 10px;
+    /* Gives even spacing around every card */
+}
+
+#lob {
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+#s:hover,
+#c:hover,
+#l:hover,
+#b:hover,
+#spa:hover,
+#she:hover,
+#bur:hover,
+#curd:hover,
+#des:hover {
+    transform: scale(0.8);
+}
+
+
+/* Images inside cards - removed position: absolute */
+
+#shrimp,
+#chicken,
+#lamb,
+#bread,
+#spag,
+#shek,
+#burger,
+#cur,
+#dessert {
+    width: 350px;
+    height: 300px;
+    /* Keeps all food photos the same height */
+    object-fit: cover;
+    display: block;
+    border-radius: 25px;
+    /* Centers the image horizontally inside the card */
+}
+
+
+/* Text and stars - normal margins instead of 390px or -80px */
+
+#prc {
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+#stars {
+    height: 15px;
+    width: 15px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+
+/*DRINK*/
+
+#drinkbody {
+    background: white;
+}
+
+#drinkth1 {
+    height: 250px;
+    background-color: #2f3640;
+    margin-left: -30px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+
+/*AMBIENCE*/
+
+#ambbody {
+    background: white;
+}
+
+#ambth1 {
+    height: 250px;
+    background-color: #2f3640;
+    margin-left: -30px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+
+/*BLOG*/
+
+#bodyblo {
+    background: white;
+}
+
+#bloh1 {
+    height: 250px;
+    background-color: #2f3640;
+    margin-left: -30px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+#bh6 {
+    letter-spacing: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+
+#btah {
+    margin-top: 50px;
+}
+
+#conb {
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#con2 {
+    font-size: 20px;
+    width: 600px;
+    margin-left: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+}
+
+#blogimg {
+    margin-left: 80px;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    display: inline-block;
+    width: 650px;
+}
+
+#bimg1 {
+    height: 400px;
+    width: 650px;
+    display: inline-block;
+}
+
+#blcn {
+    display: flex;
+}
+
+#blogimg:hover {
+    transform: scale(1.1);
+    color: rgb(231, 138, 24);
+}
+
+
+/*CONTACT*/
+
+#cons {
+    display: flex;
+}
+
+#conbody {
+    background: white;
+}
+
+#conh1 {
+    height: 250px;
+    background-color: #2f3640;
+    margin-left: -30px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+#conframe1 {
+    width: 600px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #fbd5e2;
+    display: inline-block;
+    position: relative;
+}
+
+#conframe1:hover {
+    transform: scale(0.9);
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+
+#conl1 {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+#sublinec {
+    margin-left: 50px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#location {
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#address {
+    width: 400px;
+    display: inline-block;
+}
+
+#conframe2 {
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 800px;
+}
+
+#ch6 {
+    letter-spacing: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    height: 5px;
+}
+
+#cbthr2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#conline2 {
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#mobileno {
+    width: 549px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#mobileno:hover {
+    transform: scale(1.2);
+    border-color: #2f3640;
+    border-width: 2px;
+}
+
+#name {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#name:hover {
+    transform: scale(1.2);
+    border-color: #2f3640;
+    border-width: 2px;
+}
+
+#mail {
+    height: 50px;
+    margin-left: 10px;
+    width: 365px;
+}
+
+#mail:hover {
+    transform: scale(1.2);
+    border-color: #2f3640;
+    border-width: 2px;
+}
+
+#mess {
+    margin-top: 20px;
+    height: 200px;
+    margin-left: 10px;
+    width: 549px;
+}
+
+#mess:hover {
+    transform: scale(1.2);
+    border-color: #2f3640;
+    border-width: 2px;
+}
+
+#send {
+    margin-left: 250px;
+    width: 100px;
+}
+
+
+/*RESERVATION*/
+
+#navig1 {
+    margin: 0px;
+    display: flex;
+}
+
+#navig1:hover {
+    align-items: gap;
+}
+
+#bodyres {
+    background-color: white;
+}
+
+#resth1 {
+    height: 250px;
+    background-color: #2f3640;
+    margin-left: -30px;
+    margin-top: -8px;
+    margin-right: -8px;
+}
+
+#ver {
+    /* border: 2px solid black;  */
+    width: 800px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+#resimg {
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    position: absolute;
+}
+
+#verimg {
+    width: 600px;
+    height: 700px;
+}
+
+#rh6 {
+    letter-spacing: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    height: 5px;
+}
+
+#headliner {
+    width: 170px;
+    margin-left: 20px;
+}
+
+#conr {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#rname {
+    margin-left: 20px;
+    height: 50px;
+    width: 350px;
+}
+
+#rname:hover {
+    transform: scale(1.2);
+}
+
+#rmail {
+    margin-left: 10px;
+    height: 50px;
+    width: 350px;
+}
+
+#rmail:hover {
+    transform: scale(1.2);
+}
+
+#rno {
+    margin-left: 20px;
+    height: 50px;
+    width: 400px;
+}
+
+#rno:hover {
+    transform: scale(1.2);
+}
+
+#rdob {
+    margin-left: 10px;
+    height: 50px;
+    width: 300px;
+}
+
+#rdob:hover {
+    transform: scale(1.2);
+}
+
+#rohc {
+    margin-left: 20px;
+    height: 50px;
+    width: 600px;
+}
+
+#rohc:hover {
+    transform: scale(1.2);
+}
+
+#timings {
+    margin-top: 20px;
+}
+
+#for {
+    display: flex;
+}
+
+#rmale {
+    margin-left: 20px;
+}
